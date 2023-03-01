@@ -1,0 +1,26 @@
+network - a set of nodes sharing resources
+nodes -> client, server, router, switch, firewall
+
+clients and servers are sometimes called endhosts or endpoints (confusing lol)
+
+
+router -> forwards traffic BETWEEN networks
+switch -> forwards traffic WITHIN network
+
+routers will have fewer network interfaces than switches
+
+LAN -> local area network. Something that all your computers in the same location are connected to.
+
+computer -> switch -> router -> internet -> router -> switch -> computer
+
+
+firewall - a thing for security and monitoring traffic
+ - 2 types: hardware and software. 
+ - The hardware firewall is sometimes called a network firewall. 
+ - A software firewall is sometimes called a host-based firewall
+
+network firewall -> hardware firewall for filtering traffic into a network
+host-based firewall -> a software firewall for filtering traffic into a machine (e.g. your PC)
+
+firewalls can be within or without (outside) of a LAN. 
+next-generation firewall -> a firewall with extra filtering capabilities
